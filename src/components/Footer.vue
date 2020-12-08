@@ -2,7 +2,7 @@
   <footer class="page-footer">
     <div class="footer-copyright text-center py-3">
       view source code of this site:
-      <a href="https://github.com/NipperSeb/" target="_blank"> Github</a>
+      <a href="https://github.com/NipperSeb/travel/tree/master" target="_blank"> Github</a>
     </div>
   </footer>
 </template>
