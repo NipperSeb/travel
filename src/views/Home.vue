@@ -72,6 +72,7 @@ export default {
 .home {
   box-sizing: border-box;
   background-color: rgb(247, 239, 231);
+  min-height: 100%;
 }
 a {
   text-decoration: none;

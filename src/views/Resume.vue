@@ -251,6 +251,16 @@ span {
   }
   .sideRight {
     padding-left: 10px;
+    width: 100%;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  .contact {
+    font-size: 1.5em;
+  }
+  .row {
+    font-size: 1em;
   }
 }
 </style>

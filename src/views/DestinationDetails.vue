@@ -140,6 +140,7 @@ a {
 
 .destination {
   background-color: rgb(247, 239, 231);
+  min-height: 100%;
 
   &--box {
     padding: 40px 0;
