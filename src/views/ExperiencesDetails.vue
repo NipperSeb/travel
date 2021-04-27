@@ -30,28 +30,28 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  class="d-block w-100"
+                  class="d-block img-fluid"
                   :src="require(`@/assets/${experience.carousel.photo4}`)"
                   :alt="experience.name"
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  class="d-block w-100"
+                  class="d-block img-fluid"
                   :src="require(`@/assets/${experience.carousel.photo1}`)"
                   :alt="experience.name"
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  class="d-block w-100"
+                  class="d-block img-fluid"
                   :src="require(`@/assets/${experience.carousel.photo2}`)"
                   :alt="experience.name"
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  class="d-block w-100"
+                  class="d-block img-fluid"
                   :src="require(`@/assets/${experience.carousel.photo3}`)"
                   :alt="experience.name"
                 />
@@ -130,9 +130,10 @@ section {
 }
 img {
   object-fit: cover;
+  background-size: 100% 100%;
   border: 1px solid #ccc;
   padding: 15px;
-  height: 400px;
+  /*height: 400px;*/
 }
 .alert {
   font-weight: bold;

@@ -4,7 +4,7 @@
       Welcome to my crazy world!!!
     </h1>
     <div class="container-fluid">
-      <img alt="Vue logo" class="rounded-circle" src="@/assets/avatar.jpg" />
+      <img alt="Seb head" class="rounded-circle" src="@/assets/avatar.jpg" />
       <h1>"Sebmaster"</h1>
       <p>
         This site is my FrontEnd project. It is for my friends, family,
@@ -72,7 +72,9 @@ export default {
 .home {
   box-sizing: border-box;
   background-color: rgb(247, 239, 231);
-  min-height: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
 }
 a {
   text-decoration: none;

@@ -215,6 +215,7 @@ img {
 
 .contact {
   font-size: 1.5em;
+  word-wrap: break-word;
 }
 
 li {
